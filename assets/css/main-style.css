@@ -159,6 +159,12 @@ main {
 	color: #FFCC00;
 }
 
+.quotation {
+	font-weight: 300;
+	font-size: 0.6em;
+	color: black;
+}
+
 /*For tablet*/
 @media only screen and (min-width: 701px) and (max-width: 1024px) {
 	.logo {
@@ -219,5 +225,10 @@ main {
 
 	.fa-linkedin-in {
 		width: 6%;
+	}
+
+	.quotation {
+		font-weight: 300;
+		font-size: 0.7em;
 	}
 }
