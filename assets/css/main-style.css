@@ -1,0 +1,161 @@
+/*
+brightest - FFCC00
+dark - B28F00
+*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #EAEAEA;
+	color: #147ECC;
+}
+
+.main-row {
+	min-height: 100vh;
+}
+
+/*navbar*/
+.navigation {
+	background-color: #EAEAEA;
+}
+
+.sticky-top {
+	position: sticky !important;
+	top: 0 !important;
+	z-index: 1020 !important;
+}
+
+.navbar-link-box {
+	height: 1.5em;
+	width: 100%;
+	background-color: rgba(255,204,0, 0.8);
+	position: relative;
+	margin-top: 0.5em;
+}
+
+.home-link-box, .projects-link-box, .contact-link-box {
+	margin-bottom: 2em;
+}
+
+.navbar-link-box a {
+	text-decoration: none;
+	color: #147ECC;
+	font-size: 1.5em;
+	font-weight: 900;
+	position: absolute;
+}
+
+.home-link-box a {
+	left: 0.4em;
+	bottom: -0.6em;
+}
+
+.projects-link-box a {
+	left: -0.2em;
+	bottom: -0.6em;
+}
+
+.contact-link-box a {
+	left: -0.2em;
+	bottom: -0.6em;
+}
+
+main {
+	border: 2px solid #FFCC00;
+}
+
+.nica {
+	font-size: 3em;
+	font-weight: 900;
+}
+
+.nica-label {
+	font-family: 'Yrsa', serif;
+	color: black;
+	font-weight: 300;
+	margin-top: -0.3em;
+}
+
+.profile-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9em;
+	color: black;
+	text-justify: inter-character !important;
+}
+
+.logo {
+	width: 150%;
+}
+
+.logo-set1 {
+	transform: translate(-25%, 0);
+}
+
+.json {
+	width: 130%;
+}
+
+/*.logo:hover {
+	-webkit-animation: pulse 1s;
+	animation: pulse 1s;
+	}*/
+
+	.project-title a {
+		color: #FFCC00;
+		text-decoration: none;
+		font-weight: 700;
+	}
+
+	.project-title a:hover {
+		font-weight: 900;
+	}
+
+	.project-sublabel {
+		font-family: 'Yrsa', serif;
+		color: black;
+		font-weight: 300;
+		margin-top: -0.3em;
+	}
+
+	.sub-title {
+		font-weight: 900;
+	}
+
+	.btn-open {
+		border-radius: 0;
+		background-color: #FFCC00;
+		color: black;
+	}
+
+	.btn-open:hover {
+		background-color: #FFCC00;
+		color: #147ECC;
+	}
+
+	.dev-skills, #projects, #contact {
+		margin-top: 5em;
+	}
+
+	.contact-sub-label {
+		color: #FFCC00;
+		position: relative;
+		top: -0.6em;
+		left: 5.3em;
+	}
+
+	.footer-social {
+		font-size: 2em;
+	}
+
+	/*For desktop*/
+	@media only screen and (min-width: 1001px) {
+
+		.logo {
+			width: 60%;
+			transform: translate(27%, 0);
+		}
+
+	}
