@@ -6,8 +6,9 @@
 	<!-- <link rel="stylesheet" type="text/css" href="./assets/css/debugger.css"> -->
 
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="icon" type="image/gif/png" href="./assets/images/emoji.ico">
 
 	<!-- material design CSS cdn -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/css/mdb.min.css" rel="stylesheet">
@@ -34,6 +35,9 @@
 
 	<!-- animate CSS -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
+
+	<!-- AOS CSS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<script>
 		$(document).ready(function() { $('body').bootstrapMaterialDesign(); });
@@ -71,18 +75,18 @@
 				</div>
 			</div>
 		</nav>
-		<main class="mt-4">
+		<main class="mt-4 mb-3">
 			<section id="home">
 				<div class="container profile-container">
 					<h1 class="text-center mb-0 nica">NICA</h1>
 					<h5 class="text-center nica-label mb-2">a web developer's portfolio</h5>
-					<div class="row d-flex justify-content-center">
-						<div class="col-12 col-sm-6">
+					<div class="row d-flex justify-content-center profile-content-container">
+						<div class="col-12 col-sm-4">
 							<div class="card mb-3">
 								<img class="card-img-top" src="assets/images/dmr-1.jpg">
 							</div>
 						</div>
-						<div class="col-12 col-sm-6">
+						<div class="col-12 col-sm-8">
 							<p class="profile-text text-justify">
 								<strong>Danica Mari H Romero</strong> is a Web Developer from the Philippines. She graduated from the University of the Philippines - Los Ba&ntilde;os with the degree BS Applied Mathematics major in Operations Research. Her interest in the fields of Information Technology drove her to pursue Web Development. Chasing her goals to be a full stack Web Developer, she completed a bootcamp in Tuitt Inc and graduated last December of 2018. After the bootcamp, she continues her journey to explore the vast world of Web while building creative projects for her portfolio which showcases her skills as a developer.
 							</p>
@@ -91,7 +95,7 @@
 				</div>
 				<div class="container dev-skills">
 					<h2 class="sub-title mb-3">Developer skills</h2>
-					<div class="row d-flex justify-content-around mb-3">
+					<div class="row d-flex justify-content-around mb-3" data-aos="fade-up">
 						<div class="col">
 							
 						</div>
@@ -108,7 +112,7 @@
 							<img class="logo logo-set1" src="./assets/images/css-white.png">
 						</div>
 					</div>
-					<div class="row d-flex justify-content-around mb-3">
+					<div class="row d-flex justify-content-around mb-3" data-aos="fade-up">
 						<div class="col">
 							<img class="logo" src="./assets/images/bootstrap.png">
 						</div>
@@ -125,7 +129,7 @@
 							
 						</div>
 					</div>
-					<div class="row d-flex justify-content-around mb-3">
+					<div class="row d-flex justify-content-around mb-3" data-aos="fade-up">
 						<div class="col">
 							
 						</div>
@@ -147,7 +151,7 @@
 			<section id="projects">
 				<div class="container">
 					<h2 class="sub-title">Projects</h2>
-					<div class="row mb-4">
+					<div class="row mb-4" data-aos="fade-right">
 						<div class="col-lg-5">
 							<div class="view overlay z-depth-2 mb-lg-0 mb-4">
 								<img class="img-fluid" src="./assets/images/responsive-caps1.png" alt="Capstone 1 Responsiveness">
@@ -168,7 +172,7 @@
 						</div>
 					</div>
 					<hr>
-					<div class="row mb-4">
+					<div class="row mb-4" data-aos="fade-left">
 						<div class="col-lg-7">
 							<div class="w-100">
 								<h3 class="font-weight-bold project-title"><a href="http://celoregalialtd.x10host.com/">Celo Regalia</a></h3>
@@ -189,7 +193,7 @@
 						</div>
 					</div>
 					<hr>
-					<div class="row">
+					<div class="row" data-aos="fade-right">
 						<div class="col-lg-5">
 							<div class="view overlay z-depth-2 mb-lg-0 mb-4">
 								<img class="img-fluid" src="./assets/images/responsive-caps3.png" alt="Capstone 3 Responsiveness">
@@ -214,25 +218,30 @@
 			<section id="contact">
 				<div class="container cont">
 					<h2 class="sub-title">Ping my mail,</h2>
-					<h5 class="contact-sub-label">let's discuss</h5>
+					<h5 class="contact-sub-label" data-aos="zoom-in">let's discuss</h5>
 
 					<p class="discuss-footer text-center">
-						<i class="fas fa-envelope-open discuss-footer"></i> danicamari.romero@gmail.com
+						<i class="fas fa-envelope-open discuss-footer-logo"></i> danicamari.romero@gmail.com
 					</p>
-					<p class="text-center">
-						<a href=""><i class="fas fa-paperclip"></i> Curriculum vitae</a>
+					<p class="text-center cv">
+						<a href="./assets/images/dhromero_cv.pdf" title="Danica Romero's CV" download="dhromero_cv.pdf"><i class="fas fa-paperclip"></i> Curriculum vitae</a>
 					</p>
 					<p class="social-links text-center">
 						<a href="https://instagram.com/duh__nica">
-							<i class="fab fa-instagram footer-social mr-3"></i>
+							<img class="fab fa-instagram footer-social mr-2" src="./assets/images/Instagram.svg">
 						</a>
 						<a href="https://www.linkedin.com/in/dhromero/">
-							<i class="fab fa-linkedin-in footer-social"></i>
+							<img class="fab fa-linkedin-in footer-social" src="./assets/images/LinkedIn.svg">
 						</a>
 					</p>
 				</div>
 			</section>
 		</main>
 	</div>
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 </html>

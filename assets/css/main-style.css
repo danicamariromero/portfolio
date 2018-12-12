@@ -98,64 +98,126 @@ main {
 	width: 130%;
 }
 
-/*.logo:hover {
-	-webkit-animation: pulse 1s;
-	animation: pulse 1s;
-	}*/
+.project-title a {
+	color: #FFCC00;
+	text-decoration: none;
+	font-weight: 700;
+}
 
-	.project-title a {
-		color: #FFCC00;
-		text-decoration: none;
-		font-weight: 700;
+.project-title a:hover {
+	font-weight: 900;
+}
+
+.project-sublabel {
+	font-family: 'Yrsa', serif;
+	color: black;
+	font-weight: 300;
+	margin-top: -0.3em;
+}
+
+.sub-title {
+	font-weight: 900;
+}
+
+.btn-open {
+	border-radius: 0;
+	background-color: #FFCC00;
+	color: black;
+}
+
+.btn-open:hover {
+	background-color: #FFCC00;
+	color: #147ECC;
+}
+
+.dev-skills, #projects, #contact {
+	margin-top: 5em;
+}
+
+.contact-sub-label {
+	color: #FFCC00;
+	position: relative;
+	top: -0.6em;
+	left: 5.3em;
+	display: inline;
+}
+
+.footer-social {
+	font-size: 2em;
+}
+
+.fa-instagram {
+	width: 14%;
+}
+
+
+.cv a, .social-links a {
+	text-decoration: none;
+}
+
+.fa-envelope-open, .fa-paperclip {
+	color: #FFCC00;
+}
+
+/*For tablet*/
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
+	.logo {
+		width: 55%;
+		transform: translate(27%, 0);
+	}
+}
+
+/*For desktop*/
+@media only screen and (min-width: 1001px) {
+
+	.logo {
+		width: 60%;
+		transform: translate(27%, 0);
 	}
 
-	.project-title a:hover {
-		font-weight: 900;
+	.navbar-link-box a {
+		font-size: 2.5em;
 	}
 
-	.project-sublabel {
-		font-family: 'Yrsa', serif;
+	.navbar-link-box a:hover {
 		color: black;
-		font-weight: 300;
-		margin-top: -0.3em;
+	}
+
+	.nica {
+		font-size: 7em;
+	}
+
+	.nica-label {
+		margin-top: -0.8em;
+		font-size: 1.4em;
+	}
+
+	.profile-content-container {
+		margin-top: 2em;
+	}
+
+	.profile-text {
+		font-size: 1.4em;
 	}
 
 	.sub-title {
-		font-weight: 900;
-	}
-
-	.btn-open {
-		border-radius: 0;
-		background-color: #FFCC00;
-		color: black;
-	}
-
-	.btn-open:hover {
-		background-color: #FFCC00;
-		color: #147ECC;
-	}
-
-	.dev-skills, #projects, #contact {
-		margin-top: 5em;
+		font-size: 2.7em;
 	}
 
 	.contact-sub-label {
-		color: #FFCC00;
-		position: relative;
-		top: -0.6em;
-		left: 5.3em;
+		left: 9.3em;
 	}
 
-	.footer-social {
-		font-size: 2em;
+	.discuss-footer, .cv {
+		font-size: 1.7em;
 	}
 
-	/*For desktop*/
-	@media only screen and (min-width: 1001px) {
-
-		.logo {
-			width: 60%;
-			transform: translate(27%, 0);
-		}
-
+	.fa-instagram {
+		margin-right: 0.7em !important;
+		width: 7.4%;
 	}
+
+	.fa-linkedin-in {
+		width: 6%;
+	}
+}
