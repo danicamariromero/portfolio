@@ -22,11 +22,11 @@ body {
 	background-color: #EAEAEA;
 }
 
-.sticky-top {
+/*.sticky-top {
 	position: sticky !important;
 	top: 0 !important;
 	z-index: 1020 !important;
-}
+}*/
 
 .navbar-link-box {
 	height: 1.5em;
@@ -153,6 +153,7 @@ main {
 
 .cv a, .social-links a {
 	text-decoration: none;
+	color: #147ECC;
 }
 
 .fa-envelope-open, .fa-paperclip {
